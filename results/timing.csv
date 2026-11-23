@@ -1,0 +1,3 @@
+timestamp,device,torch,batches,sec_per_batch,est_full_hours
+2026-11-16T18:06:21,mps,2.14.1,300,9.1565,305.22
+2026-11-16T19:25:51,cpu,2.14.1,100,40.0859,1336.20

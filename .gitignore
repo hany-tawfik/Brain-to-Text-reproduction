@@ -1,0 +1,18 @@
+# Upstream clone and the participant data inside it (never commit)
+nejm-brain-to-text/
+*.hdf5
+*.zip
+
+# Per-trial outputs contain sentence transcripts; only aggregates are committed
+results/baseline_val_greedy.csv
+results/baseline_val_greedy_quick.csv
+results/runs/
+
+# Run logs
+logs/
+
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
